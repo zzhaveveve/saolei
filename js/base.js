@@ -1,6 +1,6 @@
 window.onload = function(){
 	console.log
-	var items = document.getElementsByClassName('xiao');
+	var items = document.lementsByClassName('xiao');
 		for (var i = 0; i < items.length; i++) {
 			if(Math.random()>0.8){
 				items[i].textContent = '1';
